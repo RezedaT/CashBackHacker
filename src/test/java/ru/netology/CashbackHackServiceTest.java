@@ -27,12 +27,12 @@ public class CashbackHackServiceTest {
     }
 
     // данный тест не проходит, так как в сервисе есть ошибка
-//    @Test
-//    public void testIfAmountIsBoundary() {
-//
-//        int actual = service.remain(1_000);
-//        int expected = 0;
-//
-//        assertEquals(actual, expected);
-//    }
+       @Test
+    public void testIfAmountIsBoundary() {
+
+        int actual = service.remain(1_000);
+        int expected = 0;
+
+        assertEquals(actual, expected);
+   }
 }
